@@ -32,3 +32,18 @@ for(let i = 1; i <= 20; i++){
     console.log(i);
 }
 
+//--------------------------------
+
+// 5. Faça um programa que leia 5 números e informe o maior número.
+
+let maior = 0;
+
+for (let i = 0; i < 5; i++) {
+  let numero = parseInt(prompt("Digita um número"));
+
+  if (numero > maior) {
+    maior = numero;
+  }
+}
+
+console.log(maior);
