@@ -24,3 +24,11 @@ do {
   }
 } while (nome == senha);
 
+//--------------------------------
+
+// 4. Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro.
+
+for(let i = 1; i <= 20; i++){
+    console.log(i);
+}
+
