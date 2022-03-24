@@ -1,14 +1,12 @@
-// 1. Faça um Programa que leia um vetor de 5 números
+// 1. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 
 let minhaLista = [1, 5, 3, 2, 10];
 
 for (let i = 0; i < minhaLista.length; i++) {
-    console.log(minhaLista[i]);
+  console.log(minhaLista[i]);
 }
 
 // ----------------------------------------
-
-// 2. Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 
 // 2. Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 
@@ -20,3 +18,16 @@ for (let i = numeros.length - 1; i >= 0; i--) {
 }
 
 console.log(inverso);
+
+// ----------------------------------------
+
+// BONUS: crie uma função com as 4 operações matemáticas básicas
+
+function operacoes(num1, num2) {
+  console.log("Soma: " + (parseInt(num1) + parseInt(num2)));
+  console.log("Subtração: " + (parseInt(num1) - parseInt(num2)));
+  console.log("Multiplicação: " + (parseInt(num1) * parseInt(num2)));
+  console.log("Divisão: " + (parseInt(num1) / parseInt(num2)));
+}
+
+operacoes(10, 20);
